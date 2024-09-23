@@ -1,0 +1,71 @@
+openapi: 3.0.3
+info:
+  title: API - JavaScript - Open API 3.0
+  description: |-
+    Essa documentação se refere a uma API construída em JavaScript durante as aulas do Ramon Dino.   
+    Com o objetivo de aprendizado de web services e APIs em geral, além da construção de métodos
+    POST, GET e DELETE. 
+    Se quiser saber mais [clique aqui](https://classroom.google.com/c/NjU1NTk5Mzg2ODIy).
+    Ou edite por meio dos `documentos do GitHub`.
+
+    Algumas das características básicas:
+    - Métodos para clientes
+    - Métodos para produtos
+    - Autenticação via JWT token
+  version: 1.0.0
+
+paths:
+  /auth:
+    post:
+      summary: Faz o login do cliente e retorna um token JWT.
+  /clientes:
+    get:
+      summary: Lista todos os clientes.
+      responses:
+        '200':
+          description: Lista de clientes retornada com sucesso.
+    post:
+      summary: Cria um novo cliente.
+  /clientes/{id}:
+    get:
+      summary: Obtém um cliente específico.
+      parameters:
+        - in: path
+          name: id
+          required: true
+    put:
+      summary: Atualiza um cliente existente.
+  
+      responses:
+        '200':
+          description: Cliente atualizado com sucesso.
+    delete:
+      summary: Remove um cliente existente.
+  /produtos:
+    get:
+      summary: Lista todos os produtos.
+      responses:
+        '200':
+          description: Lista de produtos retornada com sucesso.
+    post:
+      summary: Cria um novo produto.
+  /produtos/{id}:
+    get:
+      summary: Obtém um produto específico.
+      parameters:
+        - in: path
+          name: id
+          required: true
+    put:
+      summary: Atualiza um produto existente.
+      parameters:
+        - in: path
+          name: id
+          required: true
+    delete:
+      summary: Remove um produto existente.
+      parameters:
+        - in: path
+          name: id
+          required: true
+          

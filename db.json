@@ -1,0 +1,194 @@
+{
+    "produtos": [
+        {
+            "id": 2,
+            "nome": "Camiseta",
+            "descricao": "Camiseta de algodão",
+            "preco": 30,
+            "categoria_id": 2,
+            "imagem": "camiseta.jpg"
+        },
+        {
+            "id": 3,
+            "nome": "Vaso de Flores",
+            "descricao": "Vaso de flores decorativo",
+            "preco": 50,
+            "categoria_id": 3,
+            "imagem": "vaso_flores.jpg"
+        },
+        {
+            "nome": "Smartphone",
+            "descricao": "Smartphone de última geração",
+            "preco": 1500,
+            "imagem": "smartphone.jpg",
+            "id": "7ab5649a-e0c2-43e8-a045-7a34a9025be2"
+        },
+        {
+            "nome": "Jão Vitor",
+            "id": "fa385673-d5f9-4f34-9551-b9f1882d4e14"
+        },
+        {
+            "nome": "Smartphone",
+            "descricao": "Smartphone de última geração",
+            "preco": 1500,
+            "imagem": "smartphone.jpg",
+            "id": "6db96810-9b67-4b0c-bc77-9ec8d8ac6fe0"
+        },
+        {
+            "nome": "Jão Vitor",
+            "id": "d6694e0c-91ed-4bc9-871e-a4231524ca65"
+        },
+        {
+            "nome": "Smartphone",
+            "descricao": "Smartphone de última geração",
+            "preco": 1500,
+            "imagem": "smartphone.jpg",
+            "id": "b66c9368-7ecb-421c-a459-f8f4474a04be"
+        },
+        {
+            "nome": "Smartphone",
+            "descricao": "Smartphone de última geração",
+            "preco": 1500,
+            "imagem": "smartphone.jpg",
+            "id": "37e23006-147a-47fb-930b-605bcbd8bced"
+        },
+        {
+            "nome": "Smartphone",
+            "descricao": "Smartphone de última geração",
+            "preco": 1500,
+            "imagem": "smartphone.jpg",
+            "id": "e7dd6d86-1383-452f-8023-bb8b1d62ceab"
+        },
+        {
+            "nome": "Celular",
+            "descricao": "Celular 4k brabissimo",
+            "preco": 4500,
+            "imagem": "celular.jpg",
+            "id": "3ac518e1-36b0-459a-9f4a-e992217f7a0f"
+        },
+        {
+            "nome": "vitor",
+            "preco": 130,
+            "id": "4973023a-998f-4440-bb9f-59e218bd2399"
+        }
+    ],
+    "clientes": [
+        {
+            "id": 1,
+            "nome": "vitor",
+            "email": "vit@gmail",
+            "senha": "231",
+            "endereco": {
+                "rua": "Rua dos Pinheiros",
+                "numero": 123,
+                "bairro": "Centro",
+                "cidade": "São Paulo",
+                "estado": "SP",
+                "cep": "01234-567"
+            }
+        },
+        {
+            "id": 2,
+            "nome": "Maria Oliveira",
+            "email": "maria.oliveira@example.com",
+            "senha": "abcdef",
+            "endereco": {
+                "rua": "Rua das Flores",
+                "numero": 456,
+                "bairro": "Jardim",
+                "cidade": "Rio de Janeiro",
+                "estado": "RJ",
+                "cep": "98765-432"
+            }
+        },
+        {
+            "nome": "alisson update",
+            "email": "Vasco@example.com",
+            "senha": "$2a$10$evGbIHQkixL2Ej3X0cTeP.PGrwGLLVwvhvamUM7lerUM.sOdPqGf6",
+            "endereco": {
+                "rua": "Roberto dinamite",
+                "numero": 10,
+                "bairro": "Vasco",
+                "cidade": "Rio de Janeiro",
+                "estado": "RJ",
+                "cep": "01234-567"
+            },
+            "id": "7aad1546-f75e-4d02-940c-f3518bcc3895"
+        },
+        {
+            "nome": "João Vitor",
+            "email": "joaovitor@texte.com",
+            "senha": "$2a$10$R4XEHEdQ8do/EG8PdPt6r.5Oq6/9ysn2I9l83Adg0pVPx8IWd17Fm",
+            "id": "a4c05346-bc9e-47fa-a4ce-93b90d6bf0f7"
+        },
+        {
+            "nome": "alisson update",
+            "email": "joaovitor@texte.com",
+            "senha": "$2a$10$UG22ZjtBmYWtcm62zpbVEOHJvHYMZFU1d0dJ.T/AqdheYNRRX.iZ2",
+            "id": "52a19dbe-ad49-4933-8141-a35c04b295cc"
+        },
+        {
+            "nome": "jorel",
+            "email": "jorel@example.com",
+            "senha": "$2a$10$P7dvHxFfs9LZiuj81ix0F.Svt/mUlPFnus.YwJRN9PFDZoSmw3p8O",
+            "id": "c46145d6-0017-4398-91c6-7c6ae799db2f"
+        },
+        {
+            "nome": "vitor",
+            "email": "vit@gmail",
+            "senha": "$2a$10$NAqHCN3z8fHOwmoJWc61PO079Q2N4xgrvPPWjLABnJEvHhXPSaXBS",
+            "id": "ebd4492f-c8ed-45bb-b826-cc2f69ed1fc8"
+        },
+        {
+            "nome": "vitor",
+            "email": "vit@gmail",
+            "senha": "$2a$10$4rgIEuN.K1ipvYU2uD041eojDIJtGiUGiSobXhHw/I2cdY6GJVU16",
+            "id": "03b49c8b-c3c6-48ae-b775-fbb13441c424"
+        },
+        {
+            "nome": "vitor",
+            "email": "vit@gmail",
+            "senha": "$2a$10$D4.dbCK8uIkk67TsHlpTNuRf6FsVlVETF.zveovfB4qziGskyDuvS",
+            "id": "7b66f557-c18d-4149-9281-b5cbfe652c27"
+        },
+        {
+            "nome": "Augusto",
+            "email": "augusto@example.com",
+            "senha": "$2a$10$2yHwvpoFTY47uF7ymm6UjubOSh3BAMT8gQNQfeb.V1AmhweviL1fe",
+            "id": "110b2d4d-9166-4ad8-9cf4-14a4d63806eb"
+        }
+    ],
+    "pedidos": [
+        {
+            "id": 1,
+            "cliente_id": 1,
+            "data_pedido": "2022-01-01",
+            "status": "pendente",
+            "itens": [
+                {
+                    "produto_id": 1,
+                    "quantidade": 2,
+                    "preco_unitario": 1500
+                },
+                {
+                    "produto_id": 2,
+                    "quantidade": 1,
+                    "preco_unitario": 30
+                }
+            ]
+        },
+        {
+            "id": 2,
+            "cliente_id": 2,
+            "data_pedido": "2022-01-15",
+            "status": "entregue",
+            "itens": [
+                {
+                    "produto_id": 3,
+                    "quantidade": 1,
+                    "preco_unitario": 50
+                }
+            ]
+        }
+    ]
+}
